@@ -1,0 +1,11 @@
+let divv = document.querySelector("div");
+let heading = document.createElement("h3");
+heading.textContent = "Buy high quality organic fruits online";
+heading.style.fontStyle = "italic";
+divv.appendChild(heading);
+let div2 = document.querySelector("#div2");
+let ull= document.querySelector("ul");
+let para = document.createElement("p");
+para.textContent = "Total fruits:4";
+div2.insertBefore(para, ull);
+para.id = "fruits-total";
